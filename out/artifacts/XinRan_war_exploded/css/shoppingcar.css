@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgba(220, 217, 217, 0.833);
+}
+button {
+  font-size: 10px;
+}
+.sum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  border: #fff 1px solid;
+  border-radius: 15px;
+  padding: 7px 3px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+.comment {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: #fff 1px solid;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.sum-logo {
+  margin-left: 10px;
+}
+.shoppingitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1190px;
+  border: white 1px solid;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  /* text-align: center; */
+}
+.sumprice {
+  display: inline-block;
+  margin: 0 15px;
+}
+.btn-puy,
+.btn-del {
+  width: 100px;
+  height: 34px;
+  background-color: #0071e3;
+  color: white;
+  padding-top: 6px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.btn-clear {
+  width: 100px;
+  height: 34px;
+  background-color: #e30000;
+  color: white;
+  padding-top: 6px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.desc-img {
+  width: 80px;
+  height: 80px;
+}
+.desc-txt {
+  margin: 0 10px;
+}
+.com-disc {
+  flex: 1 0 400px;
+}
+.itemprice {
+  flex: 1 0 200px;
+  text-align: center;
+}
+.itemsumprice {
+  flex: 1 0 200px;
+  text-align: center;
+}
+.amount {
+  flex: 1 0 200px;
+  text-align: center;
+}
+.amountin {
+  width: 80px;
+}
+.del {
+  flex: 1 0 250px;
+}
+.shoppingitemblank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1190px;
+  border: white 1px solid;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+.com-discblank {
+  flex: 1 0 400px;
+}
+.itempriceblank {
+  flex: 1 0 200px;
+  padding-left: 50px;
+}
+.itemsumpriceblank {
+  flex: 1 0 200px;
+  margin-left: 30px;
+}
+.amountblank {
+  flex: 1 0 200px;
+  /* margin-left: 50px; */
+}
+.btn-delblank {
+  flex: 1 0 200px;
+}
+.temp {
+  display: flex;
+  justify-content: end;
+  width: 1190px;
+
+  padding: 10px;
+  margin: 20px auto;
+}
+.shoppingitemempty {
+  text-align: center;
+}

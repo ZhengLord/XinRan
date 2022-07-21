@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* 主页 */
+.tips {
+  width: 1200px;
+  font-size: 10px;
+  color: rgb(157, 152, 152);
+  margin: 10px auto;
+}
+.warp-box a,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.warp-box {
+  width: 1409px;
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.warp-navs {
+  width: 8456px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -1409px;
+}
+.warp-navs li {
+  width: 1409;
+  height: 100%;
+  float: left;
+}
+.warp-navs li img {
+  width: 100%;
+  height: 100%;
+}
+.warp-bots {
+  display: inline-block;
+  width: 1409px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.242);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.warp-bots li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: relative;
+  left: 220px;
+  top: 10px;
+  margin-left: 160px;
+  float: left;
+}
+.warp-bots .active {
+  background-color: rgba(44, 44, 44, 0.551);
+}
+hr {
+  margin: 30px;
+}

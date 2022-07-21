@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgba(220, 217, 217, 0.833);
+}
+button {
+  font-size: 10px;
+}
+
+.shoppingitemblank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1190px;
+  border: white 1px solid;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+.com-discblank {
+  flex: 2 0 300px;
+}
+.itempriceblank {
+  flex: 1 0 150px;
+}
+.salesblank {
+  flex: 1 0 150px;
+}
+.repertoryblank {
+  flex: 1 0 150px;
+}
+.caozuoblank {
+  flex: 2 0 300px;
+}
+.comment {
+  width: 1300px;
+  margin: 30px auto;
+  padding: 10px;
+  border: #fff 1px solid;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.shoppingitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1190px;
+  border: white 1px solid;
+  border-top: #999ea2 1px solid;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.btn-change,
+.btn-del {
+  width: 100px;
+  height: 34px;
+  background-color: #0071e3;
+  color: white;
+  padding-top: 6px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.desc-img {
+  width: 80px;
+  height: 80px;
+}
+.desc-txt {
+  margin: 0 10px;
+}
+.com-disc {
+  flex: 2 0 300px;
+}
+.itemprice {
+  flex: 1 0 150px;
+}
+.sales {
+  flex: 1 0 150px;
+}
+.repertory {
+  flex: 1 0 150px;
+}
+.caozuo {
+  flex: 2 0 300px;
+}

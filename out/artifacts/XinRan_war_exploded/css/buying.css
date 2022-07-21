@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* 主页 */
+mainbody {
+  display: flex;
+}
+
+.mainbody-temp {
+  flex: 1 1 auto;
+}
+.datail-tab-list {
+  flex: 0 1 200px;
+}
+.product-buy {
+  flex: 0 1 240px;
+}
+.product {
+  flex: 0 0 600px;
+  font-size: 12px;
+  color: rgb(59, 59, 59);
+}
+
+/* .product-buy */
+.product-buy hr {
+  margin-top: 5px;
+}
+.product-size-wrap-1 {
+  font-size: large;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.product-size-wrap-2 {
+  font-size: small;
+  color: #d50424;
+  margin-top: 5px;
+}
+.select-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-left {
+  font-size: small;
+}
+#size-select {
+  width: 120px;
+  height: 30px;
+}
+.product-select-num {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#num-box {
+  width: 120px;
+  height: 30px;
+}
+.now-buy-btn {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  background-color: #940000;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  width: 240px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.now-buy-btn:hover {
+  color: #940000;
+  background-color: #fff;
+}
+
+.add-buycart-btn {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  background-color: #940000;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  width: 240px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.add-buycart-btn:hover {
+  color: #940000;
+  background-color: #fff;
+}
+/* product */
+.product {
+  margin-top: 30px;
+}
+.product-b {
+  font-size: 25px;
+  width: 560px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-jiage {
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  margin: 0 auto 50px auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.fangdajing {
+  display: flex;
+}
+.fang-temp {
+  flex: 0 0 150px;
+}
+#fang {
+  position: relative;
+  flex: 0 0 500px;
+}
+#smallImg {
+  width: 300px;
+  height: 300px;
+  background-image: url(../image/phone1.jpg);
+  background-size: cover;
+}
+#smallDiv {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(201, 198, 196, 0.2);
+  display: none;
+  position: absolute;
+}
+#bigDiv {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  overflow: hidden;
+  display: block;
+}
+#bigImg {
+  width: 900px;
+  height: 900px;
+  position: absolute;
+}
+.jingdian p {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.jingdian li {
+  width: 500px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+.tishi {
+  margin-top: 50px;
+}
+.jiageshuoming-title {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.jiageshuoming-content {
+  margin-top: 10px;
+}
+.learn-more-btn {
+  height: 48px;
+  width: 155px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 0 84px;
+  border: 1px solid #000;
+}
+.learn-more-btn-box {
+  width: 320px;
+  margin: 40px auto 0 auto;
+}
+.learn-more-btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+.btnbox {
+  display: flex;
+  justify-content: space-between;
+}
